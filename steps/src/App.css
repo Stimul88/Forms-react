@@ -1,0 +1,93 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  margin:100px auto;
+  padding: 20px;
+  background-color: gainsboro;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-date-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-input {
+  width: 150px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.submit-box {
+  display: flex;
+  align-items: flex-end;
+  vertical-align: bottom;
+  justify-content: flex-end;
+}
+
+
+.ok {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  border-radius: 5px;
+  width: 50px;
+  height: 35px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+.result-top {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.result-box {
+  display: flex;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  flex-direction: column;
+  padding: 10px;
+  height: 160px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.result-box::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.result-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.actions-buttons {
+  display: flex;
+}

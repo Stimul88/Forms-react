@@ -1,0 +1,12 @@
+.pencil {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.delete {
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
